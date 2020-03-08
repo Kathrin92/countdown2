@@ -1,7 +1,7 @@
 {
-  "name": "himym",
+  "name": "countdown2",
   "version": "1.0.0",
-  "description": "Team Project himym",
+  "description": "training exercise",
   "private": true,
   "scripts": {
     "test": "eslint --ext .js src/",
