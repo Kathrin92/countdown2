@@ -1,2 +1,2 @@
-# himym
-Team Project himym
+# countdown2
+training exercise
