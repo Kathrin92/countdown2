@@ -31,7 +31,7 @@ const showCountdown = () => {
     );
   } else {
     return (
-      (output.innerText = 'The countdown is over!'),
+      (output.innerText = 'Waiting is over!'),
       (headlineOutput.innerText = `${event.value} took place!`)
     );
   }
