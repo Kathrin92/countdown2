@@ -31,12 +31,12 @@ const showCountdown = () => {
     );
   } else {
     return (
-      (output.innerText = 'Waiting is over!'),
+      (output.innerText = 'Waiting is over soon!'),
       (headlineOutput.innerText = `${event.value} took place!`)
     );
   }
 };
-
+console.log(startButton);
 startButton.addEventListener('click', function() {
   setInterval(showCountdown, 1000);
 });
